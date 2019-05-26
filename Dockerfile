@@ -1,4 +1,4 @@
-FROM node:10 AS build-stage
+FROM node AS build-stage
 
 ARG VERSION
 
